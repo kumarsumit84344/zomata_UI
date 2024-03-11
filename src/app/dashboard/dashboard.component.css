@@ -1,0 +1,198 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a {
+  text-decoration: none;
+  color: rgb(138, 43, 226);
+}
+
+.brand {
+  float: left;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: -7px;
+}
+
+.login {
+  font-size: 22px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  color: lightgrey;
+}
+
+.username {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.signup {
+  font-size: 22px;
+  padding-right: 20px;
+  color: lightgrey;
+  cursor: pointer;
+  font-weight: 300;
+}
+.login:hover,.signup:hover, .name:hover{
+  color: rgb(133, 131, 131);
+}
+
+.input {
+  width: 497px;
+  height: 47px;
+  border-radius: 29px;
+  padding-left: 20px;
+}
+.input[type=search] {
+  outline-offset: 0px;
+}
+
+.dish {
+  width: 100%;
+  display: flex;	
+}
+.items{
+  display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.text-content {
+  font-size: 40px;
+  font-weight: 200;
+  margin-left: 118px;
+  padding-bottom: 10px;
+}
+
+.dish {
+  width: 1168px;
+  margin-top: 6px;
+  margin-left: 28px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 11px;
+  overflow-x: auto;
+  padding: 5px;
+  height: 150px;
+}
+.food_brand {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  column-gap: 11px;
+
+
+}
+.imgcard {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.img {
+  width: 110px;
+  height: 110px;
+  border-radius: 64px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+.images {
+  padding-right: 17px;
+  width: 119px;
+  border-radius: 80px;
+  height: 119px;
+  margin-right: 16px;
+}
+.img:hover{
+  
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgb(130, 128, 131);
+  
+}
+
+.name {
+  padding-left: 31px;
+  font-size: 20px;
+  font-weight: 400;
+  color: lightgrey;
+  
+}
+.bi-search {
+  position: absolute;
+  left: 501px;
+  top: 45px;
+}
+.card {
+  max-width: 200px;
+  width: 200px;
+  max-height: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.container {
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  row-gap: 40px;
+  column-gap: 36px;
+  padding-left: 5px;
+}
+.card:hover {
+  border: 1px solid rgb(101, 101, 101);
+  box-shadow: 0 0 15px rgb(130, 128, 131);
+
+}
+.text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.subtext {
+  color: grey;
+}
+.body {
+  padding: 30px;
+}
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+.dailog {
+  background-color: rgba(0, 0, 0, 0.268);
+}
+.form {
+  background-color: aliceblue;
+}
+.menu{
+      border: none;
+        background-color: white;
+        font-size: x-large;
+        font-weight: 500;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+    /* position: relative; */
+    padding-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ }
+
+.mat-icon{
+  -webkit-user-select: none;
+  user-select: none;
+  background-repeat: no-repeat;
+  display: inline-block;
+  fill: currentColor;
+  height: 26px;
+  width: 29px;
+  overflow: hidden;
+  font-size: 35px;
+}

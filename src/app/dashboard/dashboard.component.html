@@ -1,0 +1,78 @@
+
+<div class="body">
+    <div class="scroll-to-top"  >
+          
+        <mat-icon (click)="scrollToTop()">keyboard_arrow_up</mat-icon>
+
+
+  </div>
+    <div class="nav">
+        <a class="brand" href="/home">Zomato</a>
+        <input class="input" type="search" placeholder="Search for Restaurant,cuisine or a Dish">
+        <div *ngIf="!login ; else username">
+        <a class="login"(click)="openDialog() " >Login</a>
+        <a class="signup" (click)="opensignupDialog()" >Signup</a>
+      
+        </div>
+        <ng-template class="username" #username>
+            
+        <button mat-button [matMenuTriggerFor]="menu" class="menu">{{user}}</button>
+        <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="logout()"><a href="/home">Logout</a></button>
+        
+        </mat-menu>
+
+        </ng-template>
+
+       
+    </div>
+    <hr>
+    <h2 class="text-content">Inspiration for your first order</h2>
+    <div class="dish">
+        <div class="images" *ngFor="let item of picture">
+            <a href="/{{item.url}}"><img class="img" src="{{item.imgUrl}} " alt=""> <h4 class = "name">{{item.name}}</h4></a>
+        </div>
+    </div>
+ <hr>
+
+        <h2 class="text-content">Top brands for you</h2>
+        <div class="food_brand">
+            <div class="images" *ngFor="let item of Brand">
+                <a href="" class="a" ><img class="img" src="{{item.imgUrl}} " alt="">
+                    <!-- <h4 class="name">{{item.name}}</h4> -->
+                </a>
+            
+            
+            </div>
+
+        </div>
+        <hr>
+        <h2 class="text-content">Top restaurant for you</h2>
+
+        <div class="container">
+            
+            
+            <mat-card class="card" *ngFor="let item of restro">
+                
+                
+                <a href="#" class ="imgcard"><img mat-card-image  src="{{item.imgUrl}}" alt="Photo of a Shiba Inu" style="width:200px; height:200px;"></a>
+                
+            
+            
+                <mat-card-content>
+                    <p class="text">{{item.name}}
+                    </p>
+                    <p class="subtext">{{item.type}}
+                    </p>
+                </mat-card-content>
+            </mat-card>
+            
+            
+        </div>
+        
+        
+        
+
+     
+    </div>
+   

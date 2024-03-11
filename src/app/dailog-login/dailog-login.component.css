@@ -1,0 +1,66 @@
+.form{
+    max-width: 500px;
+        width: 450px;
+        height: 350px;
+}
+.box{
+    margin-left: 6%;
+        padding-top: 50px;
+    
+}
+.login:hover,.signup:hover{
+    color: rgb(133, 131, 131);
+  }
+.container-login{
+    height: 385px;
+}
+#Email{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.345);
+}
+#password{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.345);
+}
+.icon{
+    margin-left: 185px;
+    margin-top: 42px;
+
+}
+.para{
+        position: absolute;
+            top: 293px;
+            left: 217px;
+}
+.header{
+    position: absolute;
+        left: 132px;
+}
+.btn{
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.618);
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 30px
+    
+}
+.btn:hover{
+    background-color: red;
+}
+.head{
+    top: 20px;
+    left: 30px;
+}
+.create{
+    cursor: pointer;
+    color: red;
+
+}
+a{
+    text-decoration: none;
+}

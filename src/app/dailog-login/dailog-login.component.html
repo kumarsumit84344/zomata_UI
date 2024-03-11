@@ -1,0 +1,27 @@
+<div class="container-login">
+<div class="form">
+<form #login="ngForm" (ngSubmit)="onSubmit(login)">
+    <div class="box" >
+        <h2 class="head">Login</h2>
+        
+        <input type="Email" id="Email" name="Email" [(ngModel)]="email" placeholder="Email" required>
+        <br> 
+        <br> 
+        <input type="password" id="password" name="password" [(ngModel)]="password" placeholder="Password" required> 
+
+        <button  mat-button mat-dialog-close class="btn" type="submit" [disabled] = "!login.valid" (click)="success()">Login</button>
+
+        <hr>
+
+        New to Zomato?   <a (click)="signup()" mat-button mat-dialog-close  class="create">Create account</a>
+        </div>
+
+    
+
+    
+    
+
+</form>
+
+</div>
+</div>

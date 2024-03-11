@@ -1,0 +1,26 @@
+<div class="form">
+    <form #login="ngForm" (ngSubmit)="onSubmit(login)">
+        <div class="box">
+            <h2 class="head">Signup</h2>
+
+            <input type="Name" id="Name" name="Name" [(ngModel)]="name" placeholder="Name" required>
+            <input type="Email" id="Email" name="Email" [(ngModel)]="email" placeholder="Email" required>
+            <br>
+            <br>
+            <input type="password" id="password" name="password" [(ngModel)]="password" placeholder="Password" required>
+
+            <button mat-button mat-dialog-close class="btn" type="submit" [disabled] = "!login.valid">Signup</button>
+
+            <hr>
+            <div class="create" mat-button mat-dialog-close>
+            Already have an account? <a (click)="loginform()" >Log in</a>
+            </div>
+        </div>
+
+
+
+
+
+    </form>
+
+</div>

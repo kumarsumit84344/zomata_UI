@@ -1,0 +1,93 @@
+<!-- <p>cart works!</p>
+ -->
+<body>
+  <p>
+    <mat-toolbar class="nav">
+      <img src="../../assets/images/fast-food.png" alt="" />
+      <span class="navtext">Secure Checkout</span>
+    </mat-toolbar>
+  </p>
+  <!-- <div *ngFor="let item of dishes">
+    <mat-card>{{ item.dish }}</mat-card>
+    <p>quantity</p>
+  </div> -->
+
+ <div class="container">
+  <mat-stepper orientation="horizontal" [linear]="true" #stepper class="step">
+    <mat-step class="tab" [stepControl]="firstForm">
+      <form [formGroup]="firstForm" (ngSubmit)="onSubmit()">
+        <ng-template matStepLabel>Add Address</ng-template>
+        <mat-form-field class="address">
+          <mat-label>Address</mat-label>
+          <input type="text" formControlName="address" matInput />
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Address2</mat-label>
+          <input type="text" formControlName="address2" matInput />
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>City</mat-label>
+          <input type="text" formControlName="city" matInput />
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>State</mat-label>
+          <input type="text" formControlName="state" matInput />
+        </mat-form-field>
+
+        <mat-form-field class="postal">
+          <mat-label>Postal code</mat-label>
+          <input type="text" formControlName="postalCode" matInput />
+        </mat-form-field>
+        <div class="inpgrp">
+          <mat-form-field class="longitude">
+            <mat-label>Longitude</mat-label>
+            <input type="text" formControlName="longitude" matInput />
+          </mat-form-field>
+          <mat-form-field class="latitude">
+            <mat-label>Latitude</mat-label>
+            <input type="text" formControlName="latitude" matInput />
+          </mat-form-field>
+        </div>
+      <div class="footer-btn">
+        <button mat-raised-button type="submit" (click)="autofill()" class="autobtn">
+          Autofill Address
+        </button>
+        <button mat-raised-button matStepperNext type="submit" class="btn">
+          Submit
+        </button>
+      </div>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Order Details</ng-template>
+      <div class="container">
+        <h2>{{ resturant }}</h2>
+        <div *ngFor="let item of dishes" class="details">
+          <div *ngIf="item.qty != 0">
+            <mat-card class="card">
+              <p>{{ item.dish }}</p>
+              <div class="qty-details">
+                <button class="qty-btn" (click)="des(item)"><mat-icon>remove</mat-icon></button>
+              <p class="qty-qty">{{ item.qty }}</p>
+              <button class="qty-btn" (click)="incr(item)"><mat-icon>add</mat-icon></button>
+              </div>
+              <p>{{ item.price }}</p>
+            </mat-card>
+          </div>
+        </div>
+       <div class="footer">
+        <!-- <p class="finalPrice">Total Price : {{ final_price }}</p> -->
+        <button class="order">Pay {{final_price}}</button>
+       </div>
+      </div>
+    </mat-step>
+  </mat-stepper>
+ </div>
+  <!-- <button class="b">
+    <mat-icon>remove</mat-icon>
+    <p>2</p>
+    <mat-icon>add</mat-icon>
+  </button> -->
+</body>

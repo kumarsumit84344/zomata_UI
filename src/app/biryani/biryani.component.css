@@ -1,0 +1,79 @@
+.dish {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  row-gap: 40px;
+  column-gap: 48px;
+  position: absolute;
+  top: 113px;
+  left: 42px;
+}
+.body {
+  padding: 30px;
+}
+.card {
+  max-width: 200px;
+  width: 200px;
+  max-height: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.imgcard {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.offer {
+  background-color: #2874f0;
+  width: 134px;
+  margin-left: -15px;
+  padding: 2px;
+  color: white;
+}
+.rating {
+  position: absolute;
+    top: 256px;
+    width: 46px;
+    left: 154px;
+    background-color: #267e3e;
+    color: white;
+    padding: 2px;
+}
+.signup {
+      font-size: 22px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-weight: 300;
+    color: lightgrey;
+}
+.brand {
+  padding-right: 858px;
+  /* padding-left: 118px; */
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: -7px;
+}
+
+.login {
+  font-size: 22px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  color: lightgrey;
+}
+.nav {
+  display: flex;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+.menu {
+  border: none;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+}

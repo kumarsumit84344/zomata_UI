@@ -1,0 +1,326 @@
+.signup {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.brand {
+  /* padding-right: 828px; */
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: -7px;
+}
+
+.login {
+  font-size: 22px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  color: lightgrey;
+}
+
+.nav-container {
+
+}
+.login:hover,.signup:hover{
+  color: rgb(133, 131, 131);
+}
+
+.signup {
+  font-size: 22px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  color: lightgrey;
+}
+.usernamecheck{
+  position: relative;
+  float: right;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.body {
+  padding: 30px;
+  width: 1262px;
+}
+
+.header {
+  color: white;
+  background-color: black;
+  display: flex;
+  height: 248px;
+  width: 1207px;
+  /* margin-top: 20px; */
+}
+
+.image {
+  width: 250px;
+  height: 200px;
+  padding: -2px;
+  margin-left: 58px;
+  margin-top: 23px;
+}
+
+.details {
+  height: 83px;
+  position: absolute;
+  left: 430px;
+  top: 136px;
+}
+
+.rating {
+  position: absolute;
+  top: 255px;
+  left: 430px;
+  font-weight: 900;
+}
+
+.review {
+  position: absolute;
+  top: 280px;
+  left: 430px;
+  color: grey;
+  font-size: 15px;
+}
+
+.verticle {
+  border-left: 1px solid rgb(112, 112, 112);
+  height: 48px;
+  position: absolute;
+  top: 255px;
+  left: 560px;
+}
+
+.verticle1 {
+  border-left: 1px solid rgb(112, 112, 112);
+  height: 48px;
+  position: absolute;
+  top: 255px;
+  left: 750px;
+}
+
+.time {
+  position: absolute;
+  top: 255px;
+  left: 611px;
+  font-weight: 900;
+}
+
+.delivery {
+  position: absolute;
+  top: 280px;
+  left: 611px;
+  color: grey;
+}
+
+.cost {
+  position: absolute;
+  top: 255px;
+  left: 804px;
+  font-weight: 900;
+}
+
+.cost-detail {
+  position: absolute;
+  top: 280px;
+  left: 804px;
+  color: grey;
+}
+
+fieldset {
+  border: 6px solid transparent;
+  border-top-color: black;
+  box-sizing: border-box;
+  grid-area: 1 / 1;
+  padding: 20px;
+  width: 200px;
+}
+
+.offer {
+  color: whitesmoke;
+  width: 301px;
+  position: absolute;
+  top: 134px;
+  left: 924px;
+  border: 2px solid white;
+}
+
+.h3 {
+  background-color: black;
+  width: 85px;
+  margin-top: -12px;
+  padding-right: 90px;
+  padding-left: 5px;
+}
+
+.offer_detail {
+  padding: 10px;
+}
+
+.dish_img {
+
+  position: absolute;
+  left: 890px;
+  border-radius: 30px;
+  color: blueviolet;
+
+  width: 76px;
+  font-weight: 500;
+  top: 23px;
+}
+
+
+.text {
+  color: #EEA567
+}
+
+.card {
+  width: 1050px;
+
+  padding: 10px;
+  height: 76px;
+  margin-bottom: 10px;
+  top: 10px;
+}
+
+.recommended {
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  row-gap: 10px;
+  column-gap: 104px;
+  padding-left: 5px;
+}
+
+.nav ::ng-deep .mat-icon {
+  -webkit-user-select: none;
+  user-select: none;
+  background-repeat: no-repeat;
+  display: inline-block;
+  fill: currentColor;
+  height: 41px !important;
+  width: 42px !important;
+  overflow: hidden;
+}
+
+.cart {
+  /* position: relative;
+  font-size: 35px;
+  top: 7px;
+  left: 7px;
+  font-size: 26px; */
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+}
+
+.username {
+  font-size: x-large;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+.carticon {
+  left: 1364px;
+  position: absolute;
+  top: 36px;
+}
+
+.menu {
+  border: none;
+  background-color: white;
+  font-size: x-large;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* 
+img:hover {
+  transform: scale(1.1);
+} */
+
+.card1{
+  width: 291px;
+  height: 200px;
+margin-bottom: 40px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.dish-img1{
+  position: relative;
+  top: 16px;
+}
+.dish-img1 img{
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 25px;
+}
+.cardlist{
+ 
+}
+.p-price{
+  width: fit-content;
+  position: relative;
+  top: -150px;
+  left: 152px;
+  font-size: 18px;
+
+}
+
+.addbtn{
+  position: relative;
+  top: -145px;
+  left: 23px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 10px 26px;
+  border: 0;
+  color: #3a4149;
+  background: rgb(247, 222, 222);
+  line-height: 1.15;
+  font-size: 16px;
+  border: 1px solid red;
+  border-radius: 11px;
+}
+.addbtn:active{
+  background: rgb(240, 183, 183);
+}
+/* .proj_images{
+  display: flex;	
+}
+
+.images{
+ 	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.disp1,.disp2,.disp3,.disp4{
+  margin:10px;
+} */
+.dish-name{
+  color: grey;
+  font-size: 16px;
+  position: relative;
+  left: 150px;
+  top: -128px;
+  width: 138px;
+}
+.recommended .mat-icon{
+  font-size: 18px;
+  color: red;
+  /* padding: 0px; */
+  /* margin: 0px; */
+  width: 16px;
+}
+.recommended .p-rate{
+  position: relative;
+  left: 146px;
+  width: fit-content;
+  top: -127px;
+}

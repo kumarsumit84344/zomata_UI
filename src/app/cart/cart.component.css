@@ -1,0 +1,172 @@
+body {
+    /* background: url('../../assets/images/food.png'); */
+    width: 1280px;
+    height: 585px;
+    /* background-color: rgb(255, 239, 220); */
+   
+}
+.inpgrp mat-form-field{
+    width: 301px;
+}
+.inpgrp{
+    display: flex;
+}
+.step {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    height: 486px;
+    /* top: 20px; */
+    box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff, inset 4px 4px 8px rgba(209, 217, 230, 0.2), inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* background-color: rgb(255, 239, 220);
+    border: 2px solid rgb(242 234 225); */
+}
+
+mat-form-field {
+    padding: 10px;
+    width: 350px;
+    height: 89px;
+}
+
+.postal {
+    position: relative;
+    
+}
+
+.autobtn {
+    position: relative;
+    left: 315px;
+    top: 9px;
+}
+.btn {
+    position: relative;
+    left: 349px;
+    top: 9px;
+}
+
+::ng-deep.mat-horizontal-content-container {
+
+    padding: 0 24px 24px 24px;
+    position: relative;
+  
+    width: 833px;
+    overflow: auto !important;
+    max-height: 600px;
+    max-height: 600px;
+    top: -20px;
+   
+}
+.footer-btn{
+    position: relative;
+    top: 10px;
+}
+mat-form-field{
+    width: 600px;
+    margin-bottom: -31px;
+}
+.card {
+    position: relative;
+    left: -23px;
+    width: 635px;
+    margin-bottom: 9px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
+
+}
+.qty-details{
+    display: flex;
+}
+.qty-btn{
+    border: none;
+    background: transparent;
+    font-size: 15px;
+   
+}
+
+.qty-btn .mat-icon{
+    position: relative;
+    top: 5px;
+    font-size: 17px;
+}
+.box-incr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.box-incr button {
+    padding: 0px;
+    border: none;
+
+}
+
+.box-incr p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.qty-qty{
+    position: relative;
+    top: 5px;
+}
+
+img {
+    width: 39px;
+}
+
+.nav {
+    padding-left: 53px;
+}
+
+.navtext {
+    padding-left: 10px;
+}
+.container{
+    max-width: 1116px;
+}
+.finalPrice{
+    width: fit-content;
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
+    float: left;
+}
+.order{
+    position: relative;
+    left: 136px;
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 20px;
+    letter-spacing: 3px;
+    width: 306px;
+    top: 21px;
+}
+.order:hover{
+    transform: scale(1.1);
+    background-color: #9959f9;
+    
+}
+.footer{
+    
+}
+
+/* ::ng-deep .mat-horizontal-content-container .container{
+    padding: 0 24px 24px 24px;
+    float :left;
+    width: fit-content;
+    border: 2px solid red;
+} */
