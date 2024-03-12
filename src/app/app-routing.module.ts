@@ -8,40 +8,37 @@ import { DailogLoginComponent } from './dailog-login/dailog-login.component';
 import { DailogSignupComponent } from './dailog-signup/dailog-signup.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-
 const routes: Routes = [
   {
-    path:'home',
-    component: DashboardComponent
+    path: 'home',
+    component: DashboardComponent,
   },
   {
     path: 'Signup',
-    component:DailogSignupComponent
+    component: DailogSignupComponent,
   },
   {
     path: 'login',
-    component:DailogLoginComponent
+    component: DailogLoginComponent,
   },
   {
     path: 'biryani',
-    component:BiryaniComponent
+    component: BiryaniComponent,
   },
   {
     path: 'biryani_bay',
-    component:BiryaniBayComponent
+    component: BiryaniBayComponent,
   },
   {
-    path: "cart",
+    path: 'cart',
     component: CartComponent,
-    canActivate:[AuthGuard]
-    
-  }
-  
-  
+    canActivate: [AuthGuard],
+  },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
