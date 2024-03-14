@@ -38,7 +38,7 @@
         <h2 class="text-content">Top brands for you</h2>
         <div class="food_brand">
             <div class="images" *ngFor="let item of Brand">
-                <a href="" class="a" ><img class="img" src="{{item.imgUrl}} " alt="">
+                <a  href="/{{item.url}}" class="a" ><img class="img" src="{{item.imgUrl}} " alt="">
                     <!-- <h4 class="name">{{item.name}}</h4> -->
                 </a>
             
@@ -55,7 +55,7 @@
             <mat-card class="card" *ngFor="let item of restro">
                 
                 
-                <a href="#" class ="imgcard"><img mat-card-image  src="{{item.imgUrl}}" alt="Photo of a Shiba Inu" style="width:200px; height:200px;"></a>
+                <a  href="/{{item.url}}" class ="imgcard"><img mat-card-image  src="{{item.imgUrl}}" alt="Photo of a Shiba Inu" style="width:200px; height:200px;"></a>
                 
             
             
