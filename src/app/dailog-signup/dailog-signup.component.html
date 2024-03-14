@@ -9,7 +9,7 @@
             <br>
             <input type="password" id="password" name="password" [(ngModel)]="password" placeholder="Password" required>
 
-            <button mat-button mat-dialog-close class="btn" type="submit" [disabled] = "!login.valid">Signup</button>
+            <button mat-button mat-dialog-close class="btn" type="submit" [disabled] = "!login.valid" (click)="loginform()">Signup</button>
 
             <hr>
             <div class="create" mat-button mat-dialog-close>
