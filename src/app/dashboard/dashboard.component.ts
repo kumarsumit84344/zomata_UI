@@ -24,7 +24,6 @@ export class DashboardComponent implements OnInit {
       name: 'Biryani',
       url: 'biryani',
     },
-      url: 'biryani',
     { id: 2, imgUrl: '../../assets/images/Dish/Burgers.png', name: 'Burger',url: 'biryani'},
 
     { id: 4, imgUrl: '../../assets/images/Dish/chicken.png', name: 'Chicken',url: 'biryani' },
@@ -68,7 +67,7 @@ export class DashboardComponent implements OnInit {
       imgUrl: '../../assets/images/Brand/Pizza Hut.png',
       name: 'Pizza Hut',url: 'biryani' 
     },
-    { id: 8, imgUrl: '../../assets/images/Brand/Subway.png', name: 'Subway',,url: 'biryani'  },
+    { id: 8, imgUrl: '../../assets/images/Brand/Subway.png', name: 'Subway',url: 'biryani'  },
   ];
   restro: any = [
     {
