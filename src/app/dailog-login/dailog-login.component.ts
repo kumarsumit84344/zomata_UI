@@ -46,5 +46,6 @@ export class DailogLoginComponent {
   }
   success() {
     this.route.navigateByUrl('/home');
+    window.location.reload();
   }
 }
