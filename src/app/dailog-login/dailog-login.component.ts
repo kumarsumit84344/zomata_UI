@@ -45,7 +45,7 @@ export class DailogLoginComponent {
     this.service.opensignupDialog();
   }
   success() {
-    this.route.navigateByUrl('/home');
+    this.route.navigateByUrl('/');
     window.location.reload();
   }
 }
