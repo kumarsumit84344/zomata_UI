@@ -24,221 +24,300 @@ export class DashboardComponent implements OnInit {
       name: 'Biryani',
       url: 'biryani',
     },
-    { id: 2, imgUrl: '../../assets/images/Dish/Burgers.png', name: 'Burger',url: 'biryani'},
 
-    { id: 4, imgUrl: '../../assets/images/Dish/chicken.png', name: 'Chicken',url: 'biryani' },
+    {
+      id: 2,
+      imgUrl: '../../assets/images/Dish/Burgers.png',
+      name: 'Burger',
+      url: 'biryani',
+    },
 
-    { id: 7, imgUrl: '../../assets/images/Dish/noodles.png', name: 'Noodle',url: 'biryani' },
-    { id: 8, imgUrl: '../../assets/images/Dish/Paneer.png', name: 'Paneer' ,url: 'biryani'},
-    { id: 9, imgUrl: '../../assets/images/Dish/Pizza.png', name: 'Pizza',url: 'biryani'},
-    { id: 10, imgUrl: '../../assets/images/Dish/rolls.png', name: 'Rolls',url: 'biryani' },
+    {
+      id: 4,
+      imgUrl: '../../assets/images/Dish/chicken.png',
+      name: 'Chicken',
+      url: 'biryani',
+    },
 
-    { id: 12, imgUrl: '../../assets/images/Dish/thali.png', name: 'Thali' ,url: 'biryani' },
+    {
+      id: 7,
+      imgUrl: '../../assets/images/Dish/noodles.png',
+      name: 'Noodle',
+      url: 'biryani',
+    },
+    {
+      id: 8,
+      imgUrl: '../../assets/images/Dish/Paneer.png',
+      name: 'Paneer',
+      url: 'biryani',
+    },
+    {
+      id: 9,
+      imgUrl: '../../assets/images/Dish/Pizza.png',
+      name: 'Pizza',
+      url: 'biryani',
+    },
+    {
+      id: 10,
+      imgUrl: '../../assets/images/Dish/rolls.png',
+      name: 'Rolls',
+      url: 'biryani',
+    },
+
+    {
+      id: 12,
+      imgUrl: '../../assets/images/Dish/thali.png',
+      name: 'Thali',
+      url: 'biryani',
+    },
   ];
   Brand: any = [
     {
       id: 1,
       imgUrl: '../../assets/images/Brand/Burger King.png',
       name: 'Burger King',
-      link: ''
-      ,url: 'biryani' 
+      link: '',
+      url: 'biryani',
     },
     {
       id: 2,
       imgUrl: "../../assets/images/Brand/Domino's Pizza.png",
-      name: "Domino's Pizza",url: 'biryani'
+      name: "Domino's Pizza",
+      url: 'biryani',
     },
-    { id: 3, imgUrl: '../../assets/images/Brand/KFC.png', name: 'KFC' ,url: 'biryani' },
+    {
+      id: 3,
+      imgUrl: '../../assets/images/Brand/KFC.png',
+      name: 'KFC',
+      url: 'biryani',
+    },
     {
       id: 4,
       imgUrl: "../../assets/images/Brand/La Pino'z Pizza.png",
       name: "La Pino'z Pizza",
-      url: 'biryani' 
+      url: 'biryani',
     },
     {
       id: 5,
       imgUrl: "../../assets/images/Brand/McDonald's.png",
       name: "McDonald's",
-      url: 'biryani' 
+      url: 'biryani',
     },
-    { id: 6, imgUrl: '../../assets/images/Brand/Meraki.png', name: 'Meraki',url: 'biryani'  },
+    {
+      id: 6,
+      imgUrl: '../../assets/images/Brand/Meraki.png',
+      name: 'Meraki',
+      url: 'biryani',
+    },
     {
       id: 7,
       imgUrl: '../../assets/images/Brand/Pizza Hut.png',
-      name: 'Pizza Hut',url: 'biryani' 
+      name: 'Pizza Hut',
+      url: 'biryani',
     },
-    { id: 8, imgUrl: '../../assets/images/Brand/Subway.png', name: 'Subway',url: 'biryani'  },
+    {
+      id: 8,
+      imgUrl: '../../assets/images/Brand/Subway.png',
+      name: 'Subway',
+      url: 'biryani',
+    },
   ];
   restro: any = [
     {
       id: 1,
       imgUrl: '../../assets/images/restro/1.png',
       name: 'Curry Pot',
-      type: 'North Indian,Rice'
-      ,url: 'biryani' 
+      type: 'North Indian,Rice',
+      url: 'biryani',
     },
     {
       id: 2,
       imgUrl: '../../assets/images/restro/10.png',
       name: 'Graze Kitchen',
-      type: 'Spicy,Non-Veg,Veg',url: 'biryani' 
+      type: 'Spicy,Non-Veg,Veg',
+      url: 'biryani',
     },
     {
       id: 3,
       imgUrl: '../../assets/images/restro/2.png',
       name: 'Lucky restaurant',
-      type: 'Cakes,Pastries..',url: 'biryani' 
+      type: 'Cakes,Pastries..',
+      url: 'biryani',
     },
     {
       id: 4,
       imgUrl: '../../assets/images/restro/3.png',
       name: 'The Dining Room',
-      type: 'North Indian Maharastra',url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 5,
       imgUrl: '../../assets/images/restro/4.png',
       name: 'Glance Restaurant',
-      type: 'North Indian',url: 'biryani' 
+      type: 'North Indian',
+      url: 'biryani',
     },
     {
       id: 6,
       imgUrl: '../../assets/images/restro/5.png',
       name: 'Real Food Daily',
-      type: 'Chinese,North Indian',url: 'biryani' 
+      type: 'Chinese,North Indian',
+      url: 'biryani',
     },
     {
       id: 7,
       imgUrl: '../../assets/images/restro/6.png',
       name: 'Little Beast Restaurant',
-      type: 'Snacks,North Indian',url: 'biryani' 
+      type: 'Snacks,North Indian',
+      url: 'biryani',
     },
     {
       id: 8,
       imgUrl: '../../assets/images/restro/7.png',
       name: 'Crossroads Kitchen',
-      type: 'Spicy,Non-Veg,Veg',url: 'biryani' 
+      type: 'Spicy,Non-Veg,Veg',
+      url: 'biryani',
     },
     {
       id: 9,
       imgUrl: '../../assets/images/restro/8.png',
       name: 'Curry Leaf',
-      type: 'North Indian Maharastra'
-      ,url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 10,
       imgUrl: '../../assets/images/restro/9.png',
       name: 'Little hut restaurant',
-      type: 'Chinese,North Indian',url: 'biryani' 
+      type: 'Chinese,North Indian',
+      url: 'biryani',
     },
     {
       id: 11,
       imgUrl: '../../assets/images/restro/11.png',
       name: 'The Minty Pantry',
-      type: 'Spicy,Non-Veg,Veg',url: 'biryani' 
+      type: 'Spicy,Non-Veg,Veg',
+      url: 'biryani',
     },
     {
       id: 12,
       imgUrl: '../../assets/images/restro/12.png',
       name: 'The City Paradise',
-      type: 'North Indian Maharastra',url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 13,
       imgUrl: '../../assets/images/restro/13.png',
       name: 'Foodie Boyz Vegas',
-      type: 'Snacks,North Indian',url: 'biryani' 
+      type: 'Snacks,North Indian',
+      url: 'biryani',
     },
     {
       id: 14,
       imgUrl: '../../assets/images/restro/14.png',
       name: 'The Imperial Scarf',
-      type: 'Snacks,North Indian',url: 'biryani' 
+      type: 'Snacks,North Indian',
+      url: 'biryani',
     },
     {
       id: 15,
       imgUrl: '../../assets/images/restro/15.png',
       name: 'The Gourmet Taste',
-      type: 'North Indian Maharastra',url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 16,
       imgUrl: '../../assets/images/restro/16.png',
       name: 'The Cinnamon Catch',
-      type: 'Chinese,North Indian',url: 'biryani' 
+      type: 'Chinese,North Indian',
+      url: 'biryani',
     },
     {
       id: 17,
       imgUrl: '../../assets/images/restro/17.png',
       name: 'The Yummy House',
-      type: 'North Indian Maharastra',url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 18,
       imgUrl: '../../assets/images/restro/18.png',
       name: 'Echo Singapore',
-      type: 'Chinese,North Indian',url: 'biryani' 
+      type: 'Chinese,North Indian',
+      url: 'biryani',
     },
     {
       id: 19,
       imgUrl: '../../assets/images/restro/19.png',
       name: 'The Warm Brothers',
-      type: 'Spicy,Non-Veg,Veg',url: 'biryani' 
+      type: 'Spicy,Non-Veg,Veg',
+      url: 'biryani',
     },
     {
       id: 20,
       imgUrl: '../../assets/images/restro/10.png',
       name: 'The Saffron Shack',
-      type: 'North Indian Maharastra',url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 21,
       imgUrl: '../../assets/images/restro/21.png',
       name: 'The Gallery Catch',
-      type: 'Chinese,North Indian',url: 'biryani' 
+      type: 'Chinese,North Indian',
+      url: 'biryani',
     },
     {
       id: 22,
       imgUrl: '../../assets/images/restro/22.png',
       name: 'AdornMemories',
-      type: 'Spicy,Non-Veg,Veg',url: 'biryani' 
+      type: 'Spicy,Non-Veg,Veg',
+      url: 'biryani',
     },
     {
       id: 23,
       imgUrl: '../../assets/images/restro/23.png',
       name: 'The Silver Grove',
-      type: 'North Indian Maharastra',url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 24,
       imgUrl: '../../assets/images/restro/24.png',
       name: 'The Vintage Nights',
-      type: 'Chinese,North Indian',url: 'biryani' 
+      type: 'Chinese,North Indian',
+      url: 'biryani',
     },
     {
       id: 25,
       imgUrl: '../../assets/images/restro/25.png',
       name: 'Veg Out Vegans',
-      type: 'Chinese,North Indian',url: 'biryani' 
+      type: 'Chinese,North Indian',
+      url: 'biryani',
     },
     {
       id: 26,
       imgUrl: '../../assets/images/restro/26.png',
       name: 'The Honey Crown',
-      type: 'North Indian Maharastra',url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 27,
       imgUrl: '../../assets/images/restro/27.png',
       name: 'Superiority Burger',
-      type: 'Snacks,North Indian',url: 'biryani' 
+      type: 'Snacks,North Indian',
+      url: 'biryani',
     },
     {
       id: 28,
       imgUrl: '../../assets/images/restro/28.png',
       name: 'Vinegar Hill',
-      type: 'North Indian Maharastra',url: 'biryani' 
+      type: 'North Indian Maharastra',
+      url: 'biryani',
     },
     {
       id: 29,
@@ -292,7 +371,7 @@ export class DashboardComponent implements OnInit {
   user: any;
 
   constructor(
-    public dialog: MatDialog,
+    private dialog: MatDialog,
     private service: MyserviceService,
     private router: Router
   ) {}
@@ -313,12 +392,5 @@ export class DashboardComponent implements OnInit {
     localStorage.removeItem('pass');
     localStorage.removeItem('loginId');
   }
-  scrollToTop() {
-    var currentScroll =
-      document.documentElement.scrollTop || document.body.scrollTop;
-
-    if (currentScroll > 0) {
-      window.scrollTo(0, currentScroll - currentScroll / 1);
-    }
-  }
+  scrollToTop() {}
 }
