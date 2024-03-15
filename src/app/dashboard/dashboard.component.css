@@ -326,33 +326,38 @@ a {
     border: 2px solid pink;
   }
   .brand{
-     font-size: 16px;
-      font-weight: 900;
-      margin-top: -7px;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: -7px;
+    letter-spacing: 2px;
   
   }
-  .inpsearch {
+  .inpsearch{
     position: relative;
-    top: -4px;
-}
+    /* top: -4px; */
+    width: 100%;
+    left: 51px;}
+  
   .input {
-    width: 107px;
+    width: 230px;
     height: 23px;
     border-radius: 29px;
     padding-left: 20px;
+    border: 1px solid lightgrey;
+}
+.food_brand{
+  height: 68px;
 }
 .userdetails{
   position: relative;
   top: -11px;
+  left: -16px;
 }
 .userdetails button{
  padding: 0px;
- font-size: 14px;
+ font-size: 12px;
 }
-.inpsearch{
-  position: relative;
-    top: -4px;
-}
+
 .nav{
   display: flex;
 
