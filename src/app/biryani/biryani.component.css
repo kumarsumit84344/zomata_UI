@@ -3,7 +3,6 @@
   grid-template-columns: 200px 200px 200px 200px 200px;
   row-gap: 40px;
   column-gap: 48px;
-  position: absolute;
   top: 113px;
   left: 42px;
 }
@@ -77,3 +76,154 @@ a {
   font-size: x-large;
   font-weight: 500;
 }
+@media (max-width :481px) {
+  
+  .body{
+    border: 2px solid pink;
+  }
+  .brand{
+    font-size: 18px;
+    font-weight: 900;
+  margin-top: 0px;
+    letter-spacing: 2px;
+    padding-right: 200px;
+  
+  }
+  .inpsearch{
+    position: relative;
+    /* top: -4px; */
+    width: 100%;
+    left: 51px;}
+  
+  .input {
+    width: 230px;
+    height: 23px;
+    border-radius: 29px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+}
+.food_brand{
+  height: 68px;
+}
+.userdetails{
+  position: relative;
+  top: -11px;
+  left: -16px;
+}
+.userdetails button{
+ padding: 0px;
+ font-size: 12px;
+}
+
+.nav{
+  display: flex;
+
+}
+::placeholder {
+font-size: 10px;
+}
+.dish {
+  display: grid;
+  grid-template-columns: 155px 155px 155px 155px;
+  row-gap: 15px;
+  column-gap: 0px;
+  width: 100%;
+  overflow: auto;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 64px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.images {
+  padding-right: 17px;
+  width: 50px;
+  border-radius: 80px;
+  height: 50px;
+  margin-right: 0px;
+}
+.name {
+  padding-left: 12px;
+  font-size: 11px;
+  font-weight: 400;
+  color: lightgrey;
+}
+.text-content {
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 5px;
+  padding-bottom: 10px;
+}
+.card {
+  max-width: 130px;
+  width: 130px;
+  max-height: 215px;
+  height: 176px;
+  border-radius: 20px;
+}
+.offer {
+  background-color: #2874f0;
+  width: fit-content;
+  margin-left: -15px;
+  padding: 2px;
+  color: white;
+  font-size: 9px;
+  position: relative;
+  top: -17px;
+  left: 0px;
+}
+.rating {
+  position: relative;
+  top: -50px;
+  width: fit-content;
+  left: 82px;
+  background-color: #267e3e;
+  color: white;
+  padding: 2px;
+  font-size: 9px;
+}
+.imgcard img{
+  width: 130px;
+  height: 130px;
+}
+.container{
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 155px 155px 155px 155px;
+  row-gap: 16px;
+  column-gap: 0px;
+  padding-left: 5px;
+  width: 100%;
+  overflow: auto;
+}
+.text {
+  font-size: 11px;
+  font-weight: 500;
+}
+.subtext {
+  position: relative;
+  top: -17px;
+  left: 2px;
+  font-size: 10px;
+} 
+ .signup {
+  font-size: 16px;
+  color: lightgrey;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+  .login {
+    font-size: 16px;
+    padding-right: 9px;
+    cursor: pointer;
+    font-weight: 300;
+    color: lightgrey;
+  } 
+  
+}
+
+
