@@ -6,6 +6,10 @@
   top: 113px;
   left: 42px;
 }
+.imgcard img{
+  width: 200px;
+  height: 200px;
+}
 .body {
   padding: 30px;
 }
