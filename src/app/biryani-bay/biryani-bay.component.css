@@ -2,6 +2,10 @@
   font-size: 25px;
   cursor: pointer;
 }
+.nav-container{
+  width: 100%;
+}
+
 
 .brand {
   /* padding-right: 828px; */
