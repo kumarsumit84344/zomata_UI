@@ -11,6 +11,10 @@
   position: relative;
   float: right;
 }
+.inpsearch{
+  position: relative;
+  left: 379px;
+}
 
 .nav-container{
   width: 100%;
