@@ -3,7 +3,6 @@
    
     <div class="nav">
         <a class="brand" href="/home">Zomato</a>
-        <input class="input" type="search" placeholder="Search for Restaurant,cuisine or a Dish">
         <div *ngIf="!login ; else username">
         <a class="login"(click)="openDialog() " >Login</a>
         <a class="signup" (click)="opensignupDialog()" >Signup</a>
@@ -21,6 +20,7 @@
 
        
     </div>
+     <div class="inpsearch"> <input class="input" type="search" placeholder="Search for Restaurant,cuisine or a Dish"></div>
     <hr>
     <h2 class="text-content">Inspiration for your first order</h2>
     <div class="dish">
