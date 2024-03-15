@@ -52,7 +52,6 @@
     color: lightgrey;
 }
 .brand {
-  padding-right: 858px;
   /* padding-left: 118px; */
   font-size: 40px;
   font-weight: 900;
@@ -68,6 +67,7 @@
 }
 .nav {
   display: flex;
+  justify-content: space-between;
 }
 
 a {
