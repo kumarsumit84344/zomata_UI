@@ -357,7 +357,9 @@ a {
   display: flex;
 
 }
-
+::placeholder {
+font-size: 10px;
+}
 .dish {
 margin: 0px;
   display: flex;
@@ -400,7 +402,7 @@ margin: 0px;
   max-width: 130px;
   width: 130px;
   max-height: 215px;
-  height: 215px;
+  height: 176px;
   border-radius: 20px;
 }
 .imgcard img{
@@ -417,16 +419,13 @@ margin: 0px;
   width: 100%;
   overflow: auto;
 }
-  ::placeholder {
- font-size:10px;
-}
-.text{
-  font-size: 14px;
+.text {
+  font-size: 11px;
   font-weight: 500;
 }
-.subtext{
+.subtext {
   position: relative;
-  top: -6px;
+  top: -17px;
   left: 2px;
   font-size: 10px;
 }
