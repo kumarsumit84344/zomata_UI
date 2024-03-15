@@ -70,3 +70,36 @@
     color: red;
 
 }
+@media (max-width :481px) {
+    .btn{
+        border: 2px solid red;
+        background-color: rgba(255, 0, 0, 0.618);
+        color: white;
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 30px
+        
+    }
+    #Email{
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.345);
+    }
+    #password{
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+            border: 2px solid rgba(0, 0, 0, 0.345);
+    }
+    #Name {
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.345);
+        margin-bottom: 22px;
+    }
+    .form{
+        width: 300px;
+    }
+}
