@@ -7,9 +7,17 @@
   text-decoration: none;
   color: rgb(138, 43, 226);
 }
+.usernamecheck{
+  position: relative;
+  float: right;
+}
+
+.nav-container{
+  width: 100%;
+}
 
 .brand {
-  float: left;
+  /* padding-right: 828px; */
   font-size: 40px;
   font-weight: 900;
   margin-top: -7px;
@@ -69,7 +77,7 @@
 }
 
 .dish {
-  width: 1168px;
+
   margin-top: 6px;
   margin-left: 28px;
   display: flex;
@@ -78,18 +86,24 @@
   overflow-x: auto;
   padding: 5px;
   height: 150px;
+  width: 100%;
+    overflow: auto;
 }
 .food_brand {
   display: flex;
   flex-direction: row;
   margin-left: 20px;
+  width: 100%;
+    overflow: auto;
   column-gap: 11px;
 
 
 }
-.imgcard {
+.imgcard  img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  width: 200px;
+  height: 200px;
 }
 .img {
   width: 110px;
@@ -139,6 +153,8 @@
   row-gap: 40px;
   column-gap: 36px;
   padding-left: 5px;
+  width: 100%;
+    overflow: auto;
 }
 .card:hover {
   border: 1px solid rgb(101, 101, 101);
@@ -196,3 +212,224 @@ a {
   overflow: hidden;
   font-size: 35px;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .body{
+    /* border: 2px solid red; */
+
+  }
+  .brand{
+    font-size: 31px;
+    font-weight: 900;
+    margin-top: -7px;}
+    .input {
+      width: 322px;
+      height: 47px;
+      border-radius: 29px;
+      padding-left: 20px;}
+  
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  
+  .body{
+    border: 2px solid blue;
+  }
+  .input {
+    width: 338px;
+    height: 47px;
+    border-radius: 29px;
+    padding-left: 20px;
+}
+.nav{
+  display: flex;
+
+  gap: 23px;
+}
+.dish {
+  margin-top: 6px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 11px;
+  overflow-x: auto;
+  padding: 5px;
+  height: 150px;
+  width: 100%;
+  overflow: auto;
+}
+.img {
+  width: 75px;
+  height: 75px;
+  border-radius: 64px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.images {
+  padding-right: 17px;
+  width: 75px;
+  border-radius: 80px;
+  height: 75px;
+  margin-right: 0px;
+}
+.name {
+  padding-left: 12px;
+  font-size: 20px;
+  font-weight: 400;
+  color: lightgrey;
+}
+.text-content {
+  font-size: 27px;
+  font-weight: 200;
+  margin-left: 36px;
+  padding-bottom: 10px;
+}
+.card {
+  max-width: 150px;
+  width: 150px;
+  max-height: 215px;
+  height: 215px;
+  border-radius: 20px;
+}
+.imgcard img{
+  width: 150px;
+  height: 150px;
+}
+.container{
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  row-gap: 16px;
+  column-gap: 0px;
+  padding-left: 5px;
+  width: 100%;
+  overflow: auto;
+}
+.text{
+  font-size: 14px;
+  font-weight: 500;
+}
+.subtext{
+  position: relative;
+  top: -6px;
+  left: 2px;
+  font-size: 10px;
+}
+  
+}
+@media (max-width :481px) {
+  
+  .body{
+    border: 2px solid pink;
+  }
+  .brand{
+     font-size: 16px;
+      font-weight: 900;
+      margin-top: -7px;
+  
+  }
+  .inpsearch {
+    position: relative;
+    top: -4px;
+}
+  .input {
+    width: 107px;
+    height: 23px;
+    border-radius: 29px;
+    padding-left: 20px;
+}
+.userdetails{
+  position: relative;
+  top: -11px;
+}
+.userdetails button{
+ padding: 0px;
+ font-size: 14px;
+}
+.inpsearch{
+  position: relative;
+    top: -4px;
+}
+.nav{
+  display: flex;
+
+}
+input::-webkit-input-placeholder {
+  font: 10px;
+}
+.dish {
+margin: 0px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px;
+  overflow-x: auto;
+  padding: 5px;
+  height: 80px;
+  width: 100%;
+  overflow: auto;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 64px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.images {
+  padding-right: 17px;
+  width: 50px;
+  border-radius: 80px;
+  height: 50px;
+  margin-right: 0px;
+}
+.name {
+  padding-left: 12px;
+  font-size: 11px;
+  font-weight: 400;
+  color: lightgrey;
+}
+.text-content {
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 5px;
+  padding-bottom: 10px;
+}
+.card {
+  max-width: 150px;
+  width: 150px;
+  max-height: 215px;
+  height: 215px;
+  border-radius: 20px;
+}
+.imgcard img{
+  width: 150px;
+  height: 150px;
+}
+.container{
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  row-gap: 16px;
+  column-gap: 0px;
+  padding-left: 5px;
+  width: 100%;
+  overflow: auto;
+}
+.text{
+  font-size: 14px;
+  font-weight: 500;
+}
+.subtext{
+  position: relative;
+  top: -6px;
+  left: 2px;
+  font-size: 10px;
+}
+  
+}
+
+
