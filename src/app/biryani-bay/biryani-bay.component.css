@@ -526,6 +526,9 @@ margin-bottom: 40px;
     top: -79px;
     width: 138px;
 }
+  .header{
+    width:100%
+  }
 .recommended .p-rate {
   position: relative;
   left: 99px;
