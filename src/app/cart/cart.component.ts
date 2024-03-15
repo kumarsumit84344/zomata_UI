@@ -131,7 +131,7 @@ export class CartComponent {
   }
   hereMapApiData: any;
   autofill() {
-    this.service.hereMapAddress(18.587734, 73.737627).subscribe((res) => {
+    this.service.hereMapAddress(this.lat, this.long).subscribe((res) => {
       this.hereMapApiData = res.items[0].address;
       console.log(this.hereMapApiData);
       this.firstForm.get('address')?.setValue('');
