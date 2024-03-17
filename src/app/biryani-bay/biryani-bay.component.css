@@ -377,11 +377,11 @@ margin-bottom: 40px;
   column-gap: 5px;
   padding-left: 5px;
 }
-.photo .image{
+.photo .image {
   width: 80px;
   height: 80px;
   padding: -2px;
-  margin-left: 29px;
+  margin-left: 20px;
   margin-top: 51px;
 }
 .details {
@@ -391,11 +391,15 @@ margin-bottom: 40px;
   top: 51px;
   width: 130px;
 }
-.details h3{
-  font-size: 15px;
+.details h3 {
+  font-size: 11px;
+  position: relative;
+  left: -11px;
 }
-.details p{
+.details p {
   font-size: 12px;
+  position: relative;
+  left: -11px;
 }
 .rating {
   position: relative;
@@ -477,6 +481,7 @@ margin-bottom: 40px;
   font-size: 12px;
   position: relative;
   top: -11px;
+  margin: -5px;
 }
 .recommended-text{
   font-size: 15px;
