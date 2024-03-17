@@ -329,7 +329,11 @@ margin-bottom: 40px;
 }
 
 @media (max-width :481px) {
-  .header{
+  .header {
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 7px;
+}.header{
     width: 100%;
   }
   
