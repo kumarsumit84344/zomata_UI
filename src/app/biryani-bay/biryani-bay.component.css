@@ -335,7 +335,7 @@ margin-bottom: 40px;
   
   .body{
     width: 100%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
   }
 
   .brand{
@@ -365,7 +365,7 @@ margin-bottom: 40px;
 }
 
 .card1 {
-  width: 185px;
+  width: 207px;
   height: 132px;
   margin-bottom: 13px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -523,7 +523,7 @@ margin-bottom: 40px;
     font-weight: 300;
     color: lightgrey;
   }
-  .dish-name {
+  .dish-name[_ngcontent-nno-c100] {
     color: grey;
     font-size: 14px;
     position: relative;
@@ -538,14 +538,9 @@ margin-bottom: 40px;
   width: fit-content;
   top: -84px;
 }
-.recommended .mat-icon {
-  font-size: 8px;
-  color: red;
-  width: 16px;
-}
 .dish-name {
   color: grey;
-  font-size: 11px;
+  font-size: 14px;
   position: relative;
   left: 100px;
   top: -81px;
@@ -558,7 +553,7 @@ margin-bottom: 40px;
   position: relative;
   top: -111px;
   left: 103px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 }
