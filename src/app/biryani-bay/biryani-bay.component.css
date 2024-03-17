@@ -329,7 +329,6 @@ margin-bottom: 40px;
 }
 
 @media (max-width :481px) {
-  
   .header{
     width: 100%;
   }
@@ -338,6 +337,7 @@ margin-bottom: 40px;
     width: 100%;
     /* border: 2px solid red; */
   }
+
   .brand{
     font-size: 18px;
     font-weight: 900;
@@ -365,7 +365,7 @@ margin-bottom: 40px;
 }
 
 .card1 {
-  width: 214px;
+  width: 185px;
   height: 132px;
   margin-bottom: 13px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -467,7 +467,7 @@ margin-bottom: 40px;
   width: 157px;
   position: relative;
   top: 38px;
-  left: -73px;
+  left: -66px;
   border: 2px solid white;
   height: 184px;
 }
@@ -523,7 +523,7 @@ margin-bottom: 40px;
     font-weight: 300;
     color: lightgrey;
   }
-  .dish-name[_ngcontent-nno-c100] {
+  .dish-name {
     color: grey;
     font-size: 14px;
     position: relative;
@@ -531,9 +531,6 @@ margin-bottom: 40px;
     top: -79px;
     width: 138px;
 }
-  .header{
-    width:503px
-  }
 .recommended .p-rate {
   position: relative;
   left: 99px;
@@ -541,9 +538,14 @@ margin-bottom: 40px;
   width: fit-content;
   top: -84px;
 }
+.recommended .mat-icon {
+  font-size: 8px;
+  color: red;
+  width: 16px;
+}
 .dish-name {
   color: grey;
-  font-size: 14px;
+  font-size: 11px;
   position: relative;
   left: 100px;
   top: -81px;
@@ -556,7 +558,8 @@ margin-bottom: 40px;
   position: relative;
   top: -111px;
   left: 103px;
-  font-size: 18px;
+  font-size: 15px;
 }
+
 }
 
