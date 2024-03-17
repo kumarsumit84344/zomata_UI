@@ -163,6 +163,51 @@ img {
 .footer{
     
 }
+@media (max-width :481px) {
+    body{
+        width: 100%;
+    }
+    .step {
+        width: 96%;
+        position: relative;
+        left: 4%;
+        height: 486px;
+        box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff, inset 4px 4px 8px rgba(209, 217, 230, 0.2), inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    
+  
+    form{
+        width: 100%;
+        display: grid;
+    }
+    mat-form-field {
+        padding: 10px;
+        width: 330px;
+        height: 89px;
+    }
+    .inpgrp{
+        width: 330px;
+    }
+    .footer-btn {
+        position: relative;
+        top: 10px;
+        left: -276px;
+    }
+    ::ng-deep.mat-horizontal-content-container {
+
+        padding: 0 24px 24px 24px;
+        position: relative;
+      
+        width: 340px;
+        overflow: auto !important;
+        max-height: 600px;
+        max-height: 600px;
+        top: -20px;
+       
+    }
+    
+}
 
 /* ::ng-deep .mat-horizontal-content-container .container{
     padding: 0 24px 24px 24px;
