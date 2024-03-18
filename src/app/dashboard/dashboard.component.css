@@ -327,7 +327,7 @@ a {
 @media (max-width :481px) {
   
   .body{
-    
+    width:100%
   }
   .brand{
     font-size: 18px;
