@@ -189,10 +189,14 @@ img {
     .inpgrp{
         width: 250px;
     }
-    .footer-btn {
+   .footer-btn {
         position: relative;
         top: 10px;
-        left: -276px;
+        left: -302px;
+    }
+    .footer-btn button{
+        font-size: 8px;
+        padding: 14px;
     }
     ::ng-deep.mat-horizontal-content-container {
 
