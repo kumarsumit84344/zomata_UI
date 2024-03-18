@@ -210,6 +210,9 @@ img {
         top: -20px;
        
     }
+  input[type="text"] {
+    font-size:13px;
+}
     
 }
 
