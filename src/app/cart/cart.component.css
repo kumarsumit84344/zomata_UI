@@ -183,11 +183,11 @@ img {
     }
     mat-form-field {
         padding: 10px;
-        width: 330px;
+        width: 250px;
         height: 89px;
     }
     .inpgrp{
-        width: 330px;
+        width: 250px;
     }
     .footer-btn {
         position: relative;
